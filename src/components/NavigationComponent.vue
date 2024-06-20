@@ -1,20 +1,20 @@
 <template>
-    <nav class="container text-white p-5">
+    <nav class="container text-white debug">
         <div class="d-flex flex-wrap justify-content-between align-items-center">
             <img id="nav-logo" src="/src/assets/img/Screenshot 2024-06-20 at 18.41.05.png" alt="JW lOGO">
             <div id="nav-list">
                 <ul class="d-flex flex-wrap">
-                    <li><a href="#" class="active"> Home</a></li>
-                    <li><a href="#"> About</a></li>
-                    <li><a href="#"> Services</a></li>
-                    <li><a href="#"> Contact</a></li>
-                    <li><a href="#"> Blog</a></li>
-                    <li><a href="#"> Projects</a></li>
+                    <li><a href="#" class="active px-4"> Home</a></li>
+                    <li><a href="#" class="px-4"> About</a></li>
+                    <li><a href="#" class="px-4"> Services</a></li>
+                    <li><a href="#" class="px-4"> Contact</a></li>
+                    <li><a href="#" class="px-4"> Blog</a></li>
+                    <li><a href="#" class="px-4"> Projects</a></li>
                 </ul>
             </div>
             <div id="nav-social">
                 <a href="https://github.com/itsjackie00?tab=repositories">
-                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-github px-2"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/jacqueline-wuaku/">
                     <i class="fa-brands fa-linkedin-in"></i>
@@ -31,6 +31,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+nav{
+    padding-top: 100px;
+}
 #nav-logo{
     width: 100px;
     height: 100px;
