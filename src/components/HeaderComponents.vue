@@ -1,7 +1,7 @@
 <template>
-    <div>
-
-    </div>
+    <header class=" p-3">
+        
+    </header>
 </template>
 
 <script>

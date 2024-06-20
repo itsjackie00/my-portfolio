@@ -1,5 +1,5 @@
 <template>
-    <nav class="container text-white debug">
+    <nav class="container text-white">
         <div class="d-flex flex-wrap justify-content-between align-items-center">
             <img id="nav-logo" src="/src/assets/img/Screenshot 2024-06-20 at 18.41.05.png" alt="JW lOGO">
             <div id="nav-list">
@@ -32,11 +32,12 @@ export default {
 
 <style lang="scss" scoped>
 nav{
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #nav-logo{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
