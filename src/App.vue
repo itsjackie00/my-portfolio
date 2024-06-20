@@ -2,9 +2,11 @@
   <main>
     <HeaderComponents />
     <section class="container" id="main-content">
-      <div class="text-on-backround"></div>
       <NavigationComponent />
       <MainComponent />
+    </section>
+    <section class="container" id="main-content-bottom">
+      <MainComponentBottom />
     </section>
   </main>
 </template>
@@ -13,13 +15,15 @@
 import HeaderComponents from './components/HeaderComponents.vue';
 import NavigationComponent from './components/NavigationComponent.vue';
 import MainComponent from './components/MainComponent.vue';
+import MainComponentBottom from './components/MainComponentBottom.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComponents,
     NavigationComponent,
-    MainComponent
+    MainComponent,
+    MainComponentBottom
   }
 }
 </script>

@@ -12,14 +12,7 @@
                     <li><a href="#" class="px-4"> Projects</a></li>
                 </ul>
             </div>
-            <div id="nav-social">
-                <a href="https://github.com/itsjackie00?tab=repositories">
-                    <i class="fa-brands fa-github px-2"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/jacqueline-wuaku/">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-            </div>
+            <button class="btn btn-hire-me">Hire Me</button>
         </div>
     </nav>
 </template>
@@ -77,4 +70,19 @@ ul li a {
         }
     }
 }
+
+.btn-hire-me {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    width: 12%;
+    background-color: #465ABB;
+    /* Base color */
+    background-image: linear-gradient(to bottom, transparent 0%, #00BCD4 100%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
 </style>
