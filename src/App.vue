@@ -19,7 +19,7 @@
 header{
 height: 100vh;
 width: 100vw;
-background-color: #211036;
+background-color:#465ABB;
 }
 .debug{
   border: 2px solid red;
