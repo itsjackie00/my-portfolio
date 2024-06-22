@@ -7,6 +7,13 @@
             <img src="/public/img/Screenshot.png" alt="Yugi-Oh">
             <img src="/public/img/Boolando.png" alt="Boolando">
             <img class="img-fluid" src="/public/img/Buzzap.png" alt="Buzzap">
+            <img src="/public/img/Screenshot 2024-06-22 at 14.17.09.png" alt="">
+            <img src="/Users/Ama/Desktop/Projects img/Dropbox.png" alt="Dropbox">
+            <img src="/public/img/Our Team.png" alt="Our team">
+            <img src="/public/img/Bootstrap-Dashboard.png" alt="Bootstrap Dashboard">
+            <img src="/public/img/Discord.png" alt="Discord">
+            <img src="/public/img/Biglietto-treno-form.png" alt="Biglietto treno form">
+            <img src="/public/img/To-do-list.png" alt="To do list">
 
         </div>
         <button class="nav-button next" @click="scrollNext">&#10095;</button>
