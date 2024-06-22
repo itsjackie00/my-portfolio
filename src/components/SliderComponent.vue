@@ -3,17 +3,17 @@
         <button class="nav-button prev" @click="scrollPrev">&#10094;</button>
         <div class="slider-container" ref="sliderContainer">
             <img class="img-fluid" src="/public/img/Vite-App-img.png" alt="Netflix">
-            <img src="/public/img/dc-comics.png" alt="Dc Comics">
-            <img src="/public/img/Screenshot.png" alt="Yugi-Oh">
-            <img src="/public/img/Boolando.png" alt="Boolando">
+            <img class="img-fluid" src="/public/img/dc-comics.png" alt="Dc Comics">
+            <img class="img-fluid" src="/public/img/Screenshot.png" alt="Yugi-Oh">
+            <img class="img-fluid" src="/public/img/Boolando.png" alt="Boolando">
             <img class="img-fluid" src="/public/img/Buzzap.png" alt="Buzzap">
-            <img src="/public/img/Screenshot 2024-06-22 at 14.17.09.png" alt="">
-            <img src="/Users/Ama/Desktop/Projects img/Dropbox.png" alt="Dropbox">
-            <img src="/public/img/Our Team.png" alt="Our team">
-            <img src="/public/img/Bootstrap-Dashboard.png" alt="Bootstrap Dashboard">
-            <img src="/public/img/Discord.png" alt="Discord">
-            <img src="/public/img/Biglietto-treno-form.png" alt="Biglietto treno form">
-            <img src="/public/img/To-do-list.png" alt="To do list">
+            <img class="img-fluid" src="/public/img/Screenshot 2024-06-22 at 14.17.09.png" alt="">
+            <img class="img-fluid" src="/public/img/Dropbox.png" alt="Dropbox">
+            <img class="img-fluid" src="/public/img/Our Team.png" alt="Our team">
+            <img class="img-fluid" src="/public/img/Bootstrap-Dashboard.png" alt="Bootstrap Dashboard">
+            <img class="img-fluid" src="/public/img/Discord.png" alt="Discord">
+            <img class="img-fluid" src="/public/img/Biglietto-treno-form.png" alt="Biglietto treno form">
+            <img class="img-fluid" src="/public/img/To-do-list.png" alt="To do list">
 
         </div>
         <button class="nav-button next" @click="scrollNext">&#10095;</button>
@@ -87,9 +87,13 @@ export default {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.slider img {
-    width: 100%;
-    height: 100%;
+.slider-container img {
+    width: 700px;
+    height: 400px;
     object-fit: cover;
+    margin-right: 30px;
+    scroll-snap-align: start;
+    border-radius: 10px;
+    
 }
 </style>
