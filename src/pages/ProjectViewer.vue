@@ -1,0 +1,12 @@
+<template>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta et fuga aliquid rerum est nemo, alias reprehenderit iste sit officia distinctio assumenda praesentium velit consectetur magni rem enim atque necessitatibus laboriosam sapiente qui dolor veniam. Voluptate temporibus, non quibusdam eveniet a eaque nobis, repellat et, exercitationem facere neque velit. Recusandae, obcaecati? Omnis ratione autem cupiditate nisi alias, laudantium neque voluptatibus corporis ea assumenda eveniet necessitatibus quis ducimus quos maiores sequi labore eius reprehenderit nostrum nobis. Similique consectetur quia placeat libero nostrum beatae voluptate tempora voluptatem esse laboriosam vitae neque, ipsa eveniet reprehenderit sint. Molestias minima eveniet id reprehenderit qui unde est eos, cumque vitae nulla rem adipisci dolores, ullam quas culpa, perspiciatis nesciunt atque! Consequuntur, molestiae magni fuga maxime aut et commodi eum assumenda, velit quas eius iusto eos officia sapiente amet iste corrupti quidem praesentium magnam cupiditate, sunt dignissimos. Error laborum quidem distinctio harum ipsam culpa incidunt ut fugit illum at similique debitis, sed quae fugiat eos aliquid. Fugiat officia asperiores incidunt maiores similique ipsum explicabo quae laudantium! A quia officia doloribus quisquam quaerat. Aspernatur nulla facilis rem soluta amet similique maiores quidem sint harum nihil laborum ut, earum aut quam incidunt iure iusto odit laboriosam exercitationem recusandae. Quis odit autem iste quo id veritatis iure voluptatum illo perspiciatis amet molestias ducimus soluta sunt nemo adipisci, quaerat dolorum aperiam doloribus nulla dignissimos aliquam quasi quibusdam neque? Recusandae quisquam autem eveniet provident ipsam pariatur, quam ullam odit tenetur molestias dolore corporis fugiat doloremque officiis quaerat tempore doloribus aliquid cumque nesciunt error voluptate cupiditate alias nobis. Facilis harum incidunt saepe nostrum, perspiciatis est eos commodi dolorum reiciendis libero eum aut tempora quia facere totam error ratione culpa, provident, fuga voluptatibus praesentium. Optio ex accusamus dolores et vel eum ut distinctio praesentium expedita inventore, pariatur odit veritatis quas eligendi, atque voluptatem quam!
+</template>
+
+<script>
+    export default {
+        name: 'ProjectViewer',
+    }
+</script>
+<style lang="scss" scoped>
+
+</style>

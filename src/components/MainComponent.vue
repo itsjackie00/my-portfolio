@@ -16,7 +16,11 @@
                         <i class="fs-1 fa-brands fa-linkedin-in mx-5"></i>
                     </a>
                 </div>
-                <button class="btn d-block mb-5 my-btn animated-button">View Projects</button>
+                <button class="btn d-block mb-5 my-btn animated-button">
+                    <a class="text-decoration-none text-white" href="http://localhost:5173/projectviewer">
+                        View Projects
+                    </a>
+                </button>
             </div>
         </div>
     </section>
@@ -49,7 +53,8 @@ export default {
     border: none;
     border-radius: 10px;
     color: white;
-    transition: transform 0.3s ease; /* Smooth grow effect on hover */
+    transition: transform 0.3s ease;
+    /* Smooth grow effect on hover */
 
     &:hover {
         transform: scale(1.05);
@@ -65,36 +70,47 @@ export default {
     color: #9FA3AB;
     text-shadow: 0px 0px 10px #465ABB;
     width: 580px;
-    opacity: 0; /* Start hidden for the fade-in effect */
-    animation: fadeIn 2s forwards; /* Fade in animation on load */
+    opacity: 0;
+    /* Start hidden for the fade-in effect */
+    animation: fadeIn 2s forwards;
+    /* Fade in animation on load */
 }
 
 .socials {
     i {
         color: white;
-        transition: transform 0.3s ease; /* Smooth transition on hover */
+        transition: transform 0.3s ease;
+        /* Smooth transition on hover */
 
         &:hover {
             color: #007bff;
-            transform: scale(1.2); /* Grow effect on hover */
+            transform: scale(1.2);
+            /* Grow effect on hover */
         }
     }
 }
 
 .animated-fade-in {
-    opacity: 0; /* Start hidden for the fade-in effect */
-    animation: fadeIn 2s forwards; /* Fade in animation */
+    opacity: 0;
+    /* Start hidden for the fade-in effect */
+    animation: fadeIn 2s forwards;
+    /* Fade in animation */
 }
 
 .animated-slide-in {
-    opacity: 0; /* Start hidden for the slide-in effect */
-    transform: translateX(-100%); /* Start off-screen to the left */
-    animation: slideIn 2s forwards; /* Slide in animation */
+    opacity: 0;
+    /* Start hidden for the slide-in effect */
+    transform: translateX(-100%);
+    /* Start off-screen to the left */
+    animation: slideIn 2s forwards;
+    /* Slide in animation */
 }
 
 .animated-button {
-    opacity: 0; /* Start hidden for the fade-in effect */
-    animation: fadeIn 3s forwards; /* Fade in animation with a delay */
+    opacity: 0;
+    /* Start hidden for the fade-in effect */
+    animation: fadeIn 3s forwards;
+    /* Fade in animation with a delay */
 }
 
 /* Keyframes for animations */
@@ -107,7 +123,8 @@ export default {
 @keyframes slideIn {
     to {
         opacity: 1;
-        transform: translateX(0); /* Slide into place */
+        transform: translateX(0);
+        /* Slide into place */
     }
 }
 </style>
